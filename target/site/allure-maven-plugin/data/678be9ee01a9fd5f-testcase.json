@@ -1,0 +1,68 @@
+{
+  "uid" : "678be9ee01a9fd5f",
+  "name" : "qocHoldPostTest",
+  "title" : "Qoc hold post test",
+  "time" : {
+    "start" : 1518622307478,
+    "stop" : 1518622308178,
+    "duration" : 700
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "e07f8e81fbf0dbbd",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ {
+    "name" : "1.2",
+    "url" : "1.2"
+  } ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "BAZYLKOT7"
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCorrection.OrderCorrection_PostTests"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "qocHoldPostTest"
+  }, {
+    "name" : "thread",
+    "value" : "7108@BAZYLKOT7.main(1)"
+  }, {
+    "name" : "testId",
+    "value" : "1.2"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "feature",
+    "value" : "QOC_PositiveCases_CreationOfCorrections"
+  } ],
+  "parameters" : [ ]
+}

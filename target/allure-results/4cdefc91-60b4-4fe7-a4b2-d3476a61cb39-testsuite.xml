@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518622293726" stop="1518622316407" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1518622299263" stop="1518622300865" status="passed">
+            <name>testDB</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.DBConnectionTest"/>
+                <label name="testMethod" value="testDB"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622300895" stop="1518622303871" status="passed">
+            <name>qocGetReq_OrderHeaderId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_GetTests"/>
+                <label name="testMethod" value="qocGetReq_OrderHeaderId"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622303871" stop="1518622304537" status="passed">
+            <name>qocGetReq_sourceSystemOrderNumber</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_GetTests"/>
+                <label name="testMethod" value="qocGetReq_sourceSystemOrderNumber"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622304537" stop="1518622305297" status="passed">
+            <name>testStatusCode</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_GetTests"/>
+                <label name="testMethod" value="testStatusCode"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622305297" stop="1518622306067" status="passed">
+            <name>qocEmptyPostTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocEmptyPostTest"/>
+                <label name="testId" value="1.1"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622306077" stop="1518622307478" status="passed">
+            <name>qocExpPostTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocExpPostTest"/>
+                <label name="testId" value="1.3"/>
+                <label name="feature" value="QOC_PositiveCases_CreationOfCorrections"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622307478" stop="1518622308178" status="passed">
+            <name>qocHoldPostTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocHoldPostTest"/>
+                <label name="testId" value="1.2"/>
+                <label name="feature" value="QOC_PositiveCases_CreationOfCorrections"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622308178" stop="1518622308852" status="passed">
+            <name>qocPostTestNegative</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocPostTestNegative"/>
+                <label name="testId" value="1.5"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622308862" stop="1518622309555" status="passed">
+            <name>qocShipAfterPostTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocShipAfterPostTest"/>
+                <label name="testId" value="1.4"/>
+                <label name="feature" value="QOC_PositiveCases_CreationOfCorrections"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622309555" stop="1518622310255" status="passed">
+            <name>qocWrongFieldForCorrection[null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622310265" stop="1518622310936" status="passed">
+            <name>qocWrongFieldForCorrection[null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622310946" stop="1518622311618" status="passed">
+            <name>qocWrongFieldForCorrection[null,HOLD_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622311618" stop="1518622312301" status="passed">
+            <name>qocWrongFieldForCorrection[null,HOLD_ORDER,application,null,1,2018-02-03,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622312301" stop="1518622312982" status="passed">
+            <name>qocWrongFieldForCorrection[null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622312982" stop="1518622313672" status="passed">
+            <name>qocWrongFieldForCorrection[null,SHIP_AFTER,application,null,1,2018-02-03,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622313672" stop="1518622314352" status="passed">
+            <name>qocWrongFieldForCorrection[null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,1,2018-02-03,FLOW,NUMERIC]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_PostTests"/>
+                <label name="testMethod" value="qocWrongFieldForCorrection"/>
+                <label name="testId" value="1.0"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622314352" stop="1518622315010" status="passed">
+            <name>qocDeleteNegative</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.Test_OrderCorrection_Delete"/>
+                <label name="testMethod" value="qocDeleteNegative"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622315020" stop="1518622315687" status="passed">
+            <name>qocDeleteNegativeNUM</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.Test_OrderCorrection_Delete"/>
+                <label name="testMethod" value="qocDeleteNegativeNUM"/>
+                <label name="feature" value="QOC_NegativeCases_400Error"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1518622315687" stop="1518622316367" status="passed">
+            <name>qocDeletePositive_test</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="OrderCorrection.Test_OrderCorrection_Delete"/>
+                <label name="testMethod" value="qocDeletePositive_test"/>
+                <label name="feature" value="QOC_DeleteCase"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="7108@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

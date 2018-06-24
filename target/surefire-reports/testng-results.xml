@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="22661" started-at="2018-02-14T15:31:33Z" finished-at="2018-02-14T15:31:56Z">
+    <groups>
+      <group name="Positive">
+        <method signature="OrderCorrection_GetTests.qocGetReq_OrderHeaderId()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="qocGetReq_OrderHeaderId" class="OrderCorrection.OrderCorrection_GetTests"/>
+        <method signature="OrderCorrection_PostTests.qocExpPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocExpPostTest" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="OrderCorrection_PostTests.qocHoldPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocHoldPostTest" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="OrderCorrection_PostTests.qocShipAfterPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocShipAfterPostTest" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="Test_OrderCorrection_Delete.qocDeletePositive_test()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeletePositive_test" class="OrderCorrection.Test_OrderCorrection_Delete"/>
+      </group> <!-- Positive -->
+      <group name="400Error">
+        <method signature="OrderCorrection_GetTests.testStatusCode()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="testStatusCode" class="OrderCorrection.OrderCorrection_GetTests"/>
+        <method signature="OrderCorrection_PostTests.qocEmptyPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocEmptyPostTest" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="OrderCorrection_PostTests.qocPostTestNegative()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocPostTestNegative" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="OrderCorrection_PostTests.qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" class="OrderCorrection.OrderCorrection_PostTests"/>
+        <method signature="Test_OrderCorrection_Delete.qocDeleteNegative()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeleteNegative" class="OrderCorrection.Test_OrderCorrection_Delete"/>
+        <method signature="Test_OrderCorrection_Delete.qocDeleteNegativeNUM()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeleteNegativeNUM" class="OrderCorrection.Test_OrderCorrection_Delete"/>
+      </group> <!-- 400Error -->
+      <group name="Positive1">
+        <method signature="OrderCorrection_GetTests.qocGetReq_sourceSystemOrderNumber()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="qocGetReq_sourceSystemOrderNumber" class="OrderCorrection.OrderCorrection_GetTests"/>
+      </group> <!-- Positive1 -->
+    </groups>
+    <test name="Surefire test" duration-ms="22661" started-at="2018-02-14T15:31:33Z" finished-at="2018-02-14T15:31:56Z">
+      <class name="OrderCorrection.OrderCorrection_PostTests">
+        <test-method status="PASS" signature="qocEmptyPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocEmptyPostTest" duration-ms="770" started-at="2018-02-14T18:31:45Z" finished-at="2018-02-14T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocEmptyPostTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:45Z" finished-at="2018-02-14T18:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:46Z" finished-at="2018-02-14T18:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocExpPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocExpPostTest" duration-ms="1411" started-at="2018-02-14T18:31:46Z" finished-at="2018-02-14T18:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocExpPostTest -->
+        <test-method status="PASS" signature="qocHoldPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocHoldPostTest" duration-ms="700" started-at="2018-02-14T18:31:47Z" finished-at="2018-02-14T18:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocHoldPostTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:47Z" finished-at="2018-02-14T18:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocPostTestNegative()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocPostTestNegative" duration-ms="674" started-at="2018-02-14T18:31:48Z" finished-at="2018-02-14T18:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocPostTestNegative -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:48Z" finished-at="2018-02-14T18:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="10" started-at="2018-02-14T18:31:48Z" finished-at="2018-02-14T18:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocShipAfterPostTest()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocShipAfterPostTest" duration-ms="693" started-at="2018-02-14T18:31:48Z" finished-at="2018-02-14T18:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocShipAfterPostTest -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="700" started-at="2018-02-14T18:31:49Z" data-provider="testData" finished-at="2018-02-14T18:31:50Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EXPEDITE_ORDER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EXPEDITE_LEVEL_0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:49Z" finished-at="2018-02-14T18:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:50Z" finished-at="2018-02-14T18:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="681" started-at="2018-02-14T18:31:50Z" data-provider="testData" finished-at="2018-02-14T18:31:50Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EXPEDITE_ORDER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EXPEDITE_LEVEL_0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-02-03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="10" started-at="2018-02-14T18:31:50Z" finished-at="2018-02-14T18:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="672" started-at="2018-02-14T18:31:50Z" data-provider="testData" finished-at="2018-02-14T18:31:51Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD_ORDER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EXPEDITE_LEVEL_0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="683" started-at="2018-02-14T18:31:51Z" data-provider="testData" finished-at="2018-02-14T18:31:52Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD_ORDER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-02-03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:51Z" finished-at="2018-02-14T18:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:52Z" finished-at="2018-02-14T18:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="681" started-at="2018-02-14T18:31:52Z" data-provider="testData" finished-at="2018-02-14T18:31:52Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SHIP_AFTER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EXPEDITE_LEVEL_0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-02-03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="690" started-at="2018-02-14T18:31:52Z" data-provider="testData" finished-at="2018-02-14T18:31:53Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SHIP_AFTER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-02-03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:52Z" finished-at="2018-02-14T18:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:53Z" finished-at="2018-02-14T18:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocWrongFieldForCorrection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, helpers.RandomStringGenerator$Mode)[pri:0, instance:OrderCorrection.OrderCorrection_PostTests@45d64d27]" name="qocWrongFieldForCorrection" duration-ms="680" started-at="2018-02-14T18:31:53Z" data-provider="testData" finished-at="2018-02-14T18:31:54Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SHIP_AFTER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[EXPEDITE_LEVEL_0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-02-03]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FLOW]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NUMERIC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocWrongFieldForCorrection -->
+      </class> <!-- OrderCorrection.OrderCorrection_PostTests -->
+      <class name="OrderCorrection.Test_OrderCorrection_Delete">
+        <test-method status="PASS" signature="qocDeleteNegative()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeleteNegative" duration-ms="658" started-at="2018-02-14T18:31:54Z" finished-at="2018-02-14T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocDeleteNegative -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:54Z" finished-at="2018-02-14T18:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:55Z" finished-at="2018-02-14T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocDeleteNegativeNUM()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeleteNegativeNUM" duration-ms="677" started-at="2018-02-14T18:31:55Z" finished-at="2018-02-14T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocDeleteNegativeNUM -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:55Z" finished-at="2018-02-14T18:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocDeletePositive_test()[pri:0, instance:OrderCorrection.Test_OrderCorrection_Delete@34fe326d]" name="qocDeletePositive_test" duration-ms="680" started-at="2018-02-14T18:31:55Z" finished-at="2018-02-14T18:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocDeletePositive_test -->
+      </class> <!-- OrderCorrection.Test_OrderCorrection_Delete -->
+      <class name="OrderCorrection.OrderCorrection_GetTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="setup" is-config="true" duration-ms="20" started-at="2018-02-14T18:31:40Z" finished-at="2018-02-14T18:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="qocGetReq_OrderHeaderId()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="qocGetReq_OrderHeaderId" duration-ms="2976" started-at="2018-02-14T18:31:40Z" finished-at="2018-02-14T18:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocGetReq_OrderHeaderId -->
+        <test-method status="PASS" signature="qocGetReq_sourceSystemOrderNumber()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="qocGetReq_sourceSystemOrderNumber" duration-ms="666" started-at="2018-02-14T18:31:43Z" finished-at="2018-02-14T18:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qocGetReq_sourceSystemOrderNumber -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:43Z" finished-at="2018-02-14T18:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="setup" is-config="true" duration-ms="0" started-at="2018-02-14T18:31:44Z" finished-at="2018-02-14T18:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:OrderCorrection.OrderCorrection_GetTests@7dff6d05]" name="testStatusCode" duration-ms="750" started-at="2018-02-14T18:31:44Z" finished-at="2018-02-14T18:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+      </class> <!-- OrderCorrection.OrderCorrection_GetTests -->
+      <class name="OrderCorrection.DBConnectionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:OrderCorrection.DBConnectionTest@7e1f584d]" name="setup" is-config="true" duration-ms="5477" started-at="2018-02-14T18:31:33Z" finished-at="2018-02-14T18:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDB()[pri:0, instance:OrderCorrection.DBConnectionTest@7e1f584d]" name="testDB" duration-ms="1642" started-at="2018-02-14T18:31:39Z" finished-at="2018-02-14T18:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDB -->
+      </class> <!-- OrderCorrection.DBConnectionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

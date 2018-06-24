@@ -1,0 +1,68 @@
+{
+  "uid" : "7a50186a1d548810",
+  "name" : "qocWrongFieldForCorrection[null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,1,2018-02-03,FLOW,NUMERIC]",
+  "title" : "Qoc wrong field for correction [null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,1,2018-02-03,FLOW,NUMERIC]",
+  "time" : {
+    "start" : 1518622313672,
+    "stop" : 1518622314352,
+    "duration" : 680
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "e07f8e81fbf0dbbd",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ {
+    "name" : "1.0",
+    "url" : "1.0"
+  } ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "BAZYLKOT7"
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCorrection.OrderCorrection_PostTests"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "qocWrongFieldForCorrection"
+  }, {
+    "name" : "testId",
+    "value" : "1.0"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "7108@BAZYLKOT7.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "QOC_NegativeCases_400Error"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

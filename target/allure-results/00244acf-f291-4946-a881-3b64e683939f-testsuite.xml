@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518710689669" stop="1518710696445" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : RestApi</name>
+    <title>Default Suite : RestApi</title>
+    <test-cases>
+        <test-case start="1518710693788" stop="1518710696445" status="passed">
+            <name>qocGetReq_OrderHeaderId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="RestApi"/>
+                <label name="testClass" value="OrderCorrection.OrderCorrection_GetTests"/>
+                <label name="testMethod" value="qocGetReq_OrderHeaderId"/>
+                <label name="host" value="BAZYLKOT7"/>
+                <label name="thread" value="5896@BAZYLKOT7.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

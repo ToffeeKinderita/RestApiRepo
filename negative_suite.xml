@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "negative" verbose="1">
+    <test name ="abc">
+        <groups>
+            <run>
+                <include name="400Error"  />
+            </run>
+        </groups>
+        <classes>
+            <class name="OrderCorrection.OrderCorrection_PostTests"/>
+            <class name="OrderCorrection.Test_OrderCorrection_Delete"/>
+            <class name="OrderCorrection.OrderCorrection_GetTests"/>
+        </classes>
+    </test>
+</suite>
+

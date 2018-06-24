@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 14 18:31:33 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22661 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrderCorrection.Test_OrderCorrection_Delete.qocDeleteNegative()'><b>qocDeleteNegative</b><br>Test class: OrderCorrection.Test_OrderCorrection_Delete</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.Test_OrderCorrection_Delete@34fe326d</td></tr>
+<tr>
+<td title='OrderCorrection.Test_OrderCorrection_Delete.qocDeleteNegativeNUM()'><b>qocDeleteNegativeNUM</b><br>Test class: OrderCorrection.Test_OrderCorrection_Delete</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.Test_OrderCorrection_Delete@34fe326d</td></tr>
+<tr>
+<td title='OrderCorrection.Test_OrderCorrection_Delete.qocDeletePositive_test()'><b>qocDeletePositive_test</b><br>Test class: OrderCorrection.Test_OrderCorrection_Delete</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.Test_OrderCorrection_Delete@34fe326d</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocEmptyPostTest()'><b>qocEmptyPostTest</b><br>Test class: OrderCorrection.OrderCorrection_PostTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocExpPostTest()'><b>qocExpPostTest</b><br>Test class: OrderCorrection.OrderCorrection_PostTests</td>
+<td></td>
+<td>1</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_GetTests.qocGetReq_OrderHeaderId()'><b>qocGetReq_OrderHeaderId</b><br>Test class: OrderCorrection.OrderCorrection_GetTests</td>
+<td></td>
+<td>2</td>
+<td>OrderCorrection.OrderCorrection_GetTests@7dff6d05</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_GetTests.qocGetReq_sourceSystemOrderNumber()'><b>qocGetReq_sourceSystemOrderNumber</b><br>Test class: OrderCorrection.OrderCorrection_GetTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_GetTests@7dff6d05</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocHoldPostTest()'><b>qocHoldPostTest</b><br>Test class: OrderCorrection.OrderCorrection_PostTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocPostTestNegative()'><b>qocPostTestNegative</b><br>Test class: OrderCorrection.OrderCorrection_PostTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocShipAfterPostTest()'><b>qocShipAfterPostTest</b><br>Test class: OrderCorrection.OrderCorrection_PostTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, EXPEDITE_ORDER, application, EXPEDITE_LEVEL_0, 1, null, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, EXPEDITE_ORDER, application, EXPEDITE_LEVEL_0, null, 2018-02-03, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, HOLD_ORDER, application, EXPEDITE_LEVEL_0, 1, null, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, HOLD_ORDER, application, null, 1, 2018-02-03, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, SHIP_AFTER, application, EXPEDITE_LEVEL_0, null, 2018-02-03, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, SHIP_AFTER, application, null, 1, 2018-02-03, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_PostTests.qocWrongFieldForCorrection()'><b>qocWrongFieldForCorrection</b><br>Test class: OrderCorrection.OrderCorrection_PostTests<br>Parameters: null, SHIP_AFTER, application, EXPEDITE_LEVEL_0, 1, 2018-02-03, FLOW, NUMERIC</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_PostTests@45d64d27</td></tr>
+<tr>
+<td title='OrderCorrection.DBConnectionTest.testDB()'><b>testDB</b><br>Test class: OrderCorrection.DBConnectionTest</td>
+<td></td>
+<td>1</td>
+<td>OrderCorrection.DBConnectionTest@7e1f584d</td></tr>
+<tr>
+<td title='OrderCorrection.OrderCorrection_GetTests.testStatusCode()'><b>testStatusCode</b><br>Test class: OrderCorrection.OrderCorrection_GetTests</td>
+<td></td>
+<td>0</td>
+<td>OrderCorrection.OrderCorrection_GetTests@7dff6d05</td></tr>
+</table><p>
+</body>
+</html>

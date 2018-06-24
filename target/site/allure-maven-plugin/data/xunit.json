@@ -1,0 +1,236 @@
+{
+  "time" : {
+    "start" : 1518622299263,
+    "stop" : 1518622316367,
+    "duration" : 17104
+  },
+  "testSuites" : [ {
+    "uid" : "e07f8e81fbf0dbbd",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1518622299263,
+      "stop" : 1518622316367,
+      "duration" : 17104
+    },
+    "statistic" : {
+      "total" : 19,
+      "passed" : 19,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "74eaf65835eb06ac",
+      "name" : "testDB",
+      "title" : "Test DB",
+      "time" : {
+        "start" : 1518622299263,
+        "stop" : 1518622300865,
+        "duration" : 1602
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "10379a21b0d08c8b",
+      "name" : "qocGetReq_OrderHeaderId",
+      "title" : "Qoc get req order header id",
+      "time" : {
+        "start" : 1518622300895,
+        "stop" : 1518622303871,
+        "duration" : 2976
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7f0ad3bb4450c3e5",
+      "name" : "qocGetReq_sourceSystemOrderNumber",
+      "title" : "Qoc get req source system order number",
+      "time" : {
+        "start" : 1518622303871,
+        "stop" : 1518622304537,
+        "duration" : 666
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "70ba7863e1ebb6e2",
+      "name" : "testStatusCode",
+      "title" : "Test status code",
+      "time" : {
+        "start" : 1518622304537,
+        "stop" : 1518622305297,
+        "duration" : 760
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e798544330e0cb42",
+      "name" : "qocEmptyPostTest",
+      "title" : "Qoc empty post test",
+      "time" : {
+        "start" : 1518622305297,
+        "stop" : 1518622306067,
+        "duration" : 770
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "45998dd0fe678472",
+      "name" : "qocExpPostTest",
+      "title" : "Qoc exp post test",
+      "time" : {
+        "start" : 1518622306077,
+        "stop" : 1518622307478,
+        "duration" : 1401
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "678be9ee01a9fd5f",
+      "name" : "qocHoldPostTest",
+      "title" : "Qoc hold post test",
+      "time" : {
+        "start" : 1518622307478,
+        "stop" : 1518622308178,
+        "duration" : 700
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "71799b9034018fb9",
+      "name" : "qocPostTestNegative",
+      "title" : "Qoc post test negative",
+      "time" : {
+        "start" : 1518622308178,
+        "stop" : 1518622308852,
+        "duration" : 674
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "25d4279f2cde9aa3",
+      "name" : "qocShipAfterPostTest",
+      "title" : "Qoc ship after post test",
+      "time" : {
+        "start" : 1518622308862,
+        "stop" : 1518622309555,
+        "duration" : 693
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "443ddfc7a4bdd1cc",
+      "name" : "qocWrongFieldForCorrection[null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622309555,
+        "stop" : 1518622310255,
+        "duration" : 700
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "bd4ac9e08c20991",
+      "name" : "qocWrongFieldForCorrection[null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,EXPEDITE_ORDER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622310265,
+        "stop" : 1518622310936,
+        "duration" : 671
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ce0e93fc73d63731",
+      "name" : "qocWrongFieldForCorrection[null,HOLD_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,HOLD_ORDER,application,EXPEDITE_LEVEL_0,1,null,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622310946,
+        "stop" : 1518622311618,
+        "duration" : 672
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5e8852c2d5e4eacf",
+      "name" : "qocWrongFieldForCorrection[null,HOLD_ORDER,application,null,1,2018-02-03,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,HOLD_ORDER,application,null,1,2018-02-03,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622311618,
+        "stop" : 1518622312301,
+        "duration" : 683
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f9c5158c9e3dbbcf",
+      "name" : "qocWrongFieldForCorrection[null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,null,2018-02-03,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622312301,
+        "stop" : 1518622312982,
+        "duration" : 681
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d48a98353f5fe7b4",
+      "name" : "qocWrongFieldForCorrection[null,SHIP_AFTER,application,null,1,2018-02-03,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,SHIP_AFTER,application,null,1,2018-02-03,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622312982,
+        "stop" : 1518622313672,
+        "duration" : 690
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7a50186a1d548810",
+      "name" : "qocWrongFieldForCorrection[null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,1,2018-02-03,FLOW,NUMERIC]",
+      "title" : "Qoc wrong field for correction [null,SHIP_AFTER,application,EXPEDITE_LEVEL_0,1,2018-02-03,FLOW,NUMERIC]",
+      "time" : {
+        "start" : 1518622313672,
+        "stop" : 1518622314352,
+        "duration" : 680
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e9b5b0e47f13c050",
+      "name" : "qocDeleteNegative",
+      "title" : "Qoc delete negative",
+      "time" : {
+        "start" : 1518622314352,
+        "stop" : 1518622315010,
+        "duration" : 658
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fcc790e5b6847686",
+      "name" : "qocDeleteNegativeNUM",
+      "title" : "Qoc delete negative NUM",
+      "time" : {
+        "start" : 1518622315020,
+        "stop" : 1518622315687,
+        "duration" : 667
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b90b919ec15ad570",
+      "name" : "qocDeletePositive_test",
+      "title" : "Qoc delete positive test",
+      "time" : {
+        "start" : 1518622315687,
+        "stop" : 1518622316367,
+        "duration" : 680
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
